@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px red solid;
 }
 
 html{
@@ -346,27 +347,93 @@ margin-top:20px ;
     }
     .teachers{
         flex-direction: column;
-        justify-content: center;
     }
     .teachers_left{
         width: 100%;
     }
-    .teachers-right{
+    .teachers_right{
         width: 100%;
-        margin: 0;
+        margin-top: 150px;
     }
     .about_teachers{
-        margin:0;
         width: 200px;
     }
     .about_teachers img{
-        width: 150px;
+        width: 100%;
     }
     .about_teachers div{
-        width: 200px;
+        width: 100%;
         margin: 0;
     }
 }
-@media (max-width:900){
-
+@media (max-width:900px){
+    .intro_text_2_1{
+        font-size: 30px;
+    }
+    .footer{
+        flex-wrap:wrap ;
+    }
+    .footer-col1{
+        width: 30%;
+    }
+    .footer-col2{
+        width: 30%;
+    }
+}
+@media (max-width:768px){
+    .btn a{
+        font-size: 14px;
+    }
+    .boxes{
+        width: 170px;
+    }
+}
+@media (max-width:425px){
+    header{
+        display: none;
+    }
+    .menu a{
+        margin-left: 10px;
+    }
+    .intro-header {
+        width: 90%;
+        font-size: 20px;
+    }
+    .intro_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .format_img{
+        width: 100%;
+    }
+    .intro_text_2{
+        width: 100%;
+    }
+    .banner_item{
+        width: 100%;
+    }
+    .footer-col1{
+        width: 100%;
+    }
+    .footer-col2{
+        width: 100%;
+    }
+    .mainbox{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tg{
+        width: 100%;
+    }
+    .intro_2{
+        padding: 20px;
+    }
+    .intro_text_2_2{
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
 }
